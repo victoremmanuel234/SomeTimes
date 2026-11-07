@@ -1,0 +1,61 @@
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Aa]rtifacts/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+*.dll
+*.exe
+*.pdb
+*.cache
+*.tmp
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/packages/
+
+# ASP.NET Core
+wwwroot/lib/
+appsettings.Development.json
+
+# Logs
+*.log
+logs/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Temporary files
+*.bak
+*.swp
+*.swo
+*~
+
+# Test results
+[Tt]est[Rr]esult*/
+coverage/
+
+# Publish output
+publish/
